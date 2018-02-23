@@ -1,0 +1,97 @@
+Actinobacillus actinomycetemcomitans
+Actinobacillus hominis
+Actinobacillus lignieresii
+Actinomyces radingae
+Alcaligenes odorans
+Cedecea lapagei
+Cellulomonas cellulans
+Cellulomonas turbata
+Chlamydophila psittaci
+Chryseobacterium meningosepticum
+Clostridium bifermentans
+Eubacterium saburreum
+Eubacterium tenue
+Gordonia rubropertincta
+Granulicatella adjacens
+Haemophilus aphrophilus
+Haemophilus paraphrophilus
+Haemophilus segnis
+Neisseria flava
+Rhodococcus equi
+Ruminococcus productus
+Salmonella choleraesuis
+Salmonella enteritidis
+Salmonella typhi
+Salmonella typhimurium
+Arcanobacterium bernardiae
+Arcanobacterium heamolyticum
+Arcanobacterium pyogenes
+Anaplasma phagocytophila
+Bacillus sphaericus
+Bacteroides distasonis
+Bacteroides forsythus
+Bacteroides galacturonicus
+Bacteroides merdae
+Bacteroides splanchnicus
+Bacteroides ureolyticus
+Clostridium difficile
+Clostridium histolyticum
+Clostridium ramosum
+Clostridium sordellii
+Clostridium tertium
+Corynebacterium macginleyi
+Corynebacterium pseudodiphthericum
+Klebsiella granulomatis
+Klebsiella ornithinolytica
+Nocardia caviae
+Pasteurella aerogenes
+Pasteurella caballi
+Pasteurella canis
+Pasteurella pneumotropica
+Pasteurella stomatis
+Peptinophilus asaccharolyticus
+Peptococcus niger
+Selenomonas dianae
+Spirillum minus
+Streptococcus bovis
+Borrelia brasiliensis
+Borrelia caucasica
+Borrelia latyschewii
+Borrelia mazzottii
+Borrelia venezuelensis
+Ehrlichia ewingii
+Enterobacter aerogenes
+Enterobacter amnigenus
+Enterobacter gergoviae
+Enterobacter sakazakii
+Eubacterium combesii
+Eubacterium contortum
+Eubacterium cylindroides
+Eubacterium moniliforme
+Eubacterium multiforme
+Micromonas micros
+Moraxella (Branhamella) catarrhalis
+Moraxella (Branhamella) caviae
+Moraxella (Branhamella) cuniculi
+Moraxella (Branhamella) ovis
+Moraxella (Moxarella) atlantae
+Moraxella (Moxarella) bovis
+Moraxella (Moxarella) lacunata
+Moraxella (Moxarella) liquefaciens
+Moraxella (Moxarella) nonliquefaciens
+Moraxella (Moxarella) osloensis
+Prevotella heparinolytica
+Prevotella oulora
+Prevotella tannerae
+Prevotella zoogleoformans
+Propionibacterium avidum
+Propionibacterium granulosum
+Propionibacterium propionicus
+Streptococcus milleri
+Streptococcus sanguis
+Suttonella indologenes
+Tatlockia maceachernii
+Treponema carateum
+Tropheryma whippelii
+Tsukamurella inchonensis
+Vibrio hollisae
