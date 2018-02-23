@@ -8,19 +8,30 @@ https://github.com/Joseph7e/Pathogen-Identification/blob/master/538_potential_pa
 
 
 ### Identify species with avaialble data in refseq.
+Species with avaialble genomic sequences were identified from NCBIs ftp report file.
+pathogen_gca_file.txt - a complete list of all potential pathogen genome accessions available
+download_stuff_V2.sh - used to download all gff and fna files for each species
 
- So now that's finished we are about to work on the manuscript of potential pathogen detection that you helped me out with last spring. Basically I'm at the point of trying to pull everything together and needed the scripts that you wrote. I think you at least wrote a couple, I'll list ones I think you wrote:
- 
- 
- (1) script to blast fasta files against potential pathogen database and I think it outputted the stats as well
- (2) script to extract the 16S sequences from genomes 
- (3) the location of the potential pathogen 16S database
- (4) Anything else you might have related to this work.
 
-Let me know if you have these still!
+### extract 16S sequences
+The all 16S copies from each species genome was than extracted and concatenated into a single FASTA database 
+gene_extractor.py - used to extract a given gene from a genomic fasta, given a gff and gene name (in this case 16S rRNA).
 
-Your contributions definitely are worth acknowledgements and I think they would warrant authorship if you were interested in reviewing the manuscript. I'll make sure Steveo agrees with that too though.
+all_pathogens_in_database.txt - list of pahtogen species in final database
+missing_species.txt - list of potential pathogens that are not in final database
 
-Thanks again for your help on this and be on the lookout for the metabarcode paper hopefully soon. 
 
--Derek R.    
+### Sequence BLAST
+Query sequences are BLASTed against the final database using the following command.
+makeblastdb -in new_database_436_species.fasta -out new_database_436_species -dbtype nt
+blastn -query <sequence.fasta> -subject new_database_436_species -outfmt 6 -out <outname>
+
+
+### Parse BLAST and construct csv of results.
+parse_blast_for_pathogens.py - the main script for blast parsing and pathogen identification.
+This above script takes three command line arguments. 
+1.) Sequence file - input FASTA used for BLAST
+2.) BLAST results
+3.) group name (i.e. ward 1, ward 2, etc)
+Hardcoded are paths to the pathogen_gca_file.txt and enteric_specific_pathogens.csv files above.
+The script is stingent on assigning amplicon sequences to potential pathogens, requiring >99% identity, hit length greater than 200 bps, and an e-value less than 1e-20.
