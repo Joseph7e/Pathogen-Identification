@@ -47,6 +47,7 @@ This above script takes three command line arguments.
 1.) Sequence file - input FASTA used for BLAST
 
 2.) BLAST results
+
 3.) group name (i.e. ward 1, ward 2, etc)
 
 Hardcoded are paths to the pathogen_gca_file.txt and enteric_specific_pathogens.csv files above.
