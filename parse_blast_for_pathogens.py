@@ -65,7 +65,7 @@ for line in open(blast_file):
     percent_id = elements[3]
     length_hit = elements[4]
     evalue = elements[9]
-    if float(percent_id) >= 99.00 and int(length_hit) > 200:# and float(evalue) > float('1e-20'):
+    if float(percent_id) >= 99.00 and int(length_hit) > 200:# and float(evalue) < float('1e-20'):
         if query in best_hit_dictionary.keys():
             continue
         else:
