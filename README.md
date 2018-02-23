@@ -1,6 +1,14 @@
 # Potential-Pathogen-Identification
 
 
+### Construct database of potential human pathogens
+Species names of potential pathogens were dentified from X paper.
+538_potential_pathogenic_bacteria.csv - contains the complete list of potential pathogens.
+https://github.com/Joseph7e/Pathogen-Identification/blob/master/538_potential_pathogenic_bacteria.csv
+
+
+### Identify species with avaialble data in refseq.
+
  So now that's finished we are about to work on the manuscript of potential pathogen detection that you helped me out with last spring. Basically I'm at the point of trying to pull everything together and needed the scripts that you wrote. I think you at least wrote a couple, I'll list ones I think you wrote:
  
  
