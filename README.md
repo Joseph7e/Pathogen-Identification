@@ -52,5 +52,5 @@ This above script takes three command line arguments.
 
 Hardcoded are paths to the pathogen_gca_file.txt and enteric_specific_pathogens.csv files above.
 
-The script is stingent on assigning amplicon sequences to potential pathogens, requiring >99% identity, hit length greater than 200 bps, and an e-value less than 1e-20.
+The script is stringent on assigning amplicon sequences to potential pathogens, requiring >99% identity, hit length greater than 200 bps, and an e-value less than 1e-20.
 
